@@ -6,11 +6,7 @@
 
 ```bash
 $ nix develop
-```
 
-1. 
-
-```bash
 $ uv run hello
 Hello from hello-world!
 Pandas version: 2.3.3
