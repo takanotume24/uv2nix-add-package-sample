@@ -85,6 +85,7 @@
             shellHook = ''
               unset PYTHONPATH
               export REPO_ROOT=$(git rev-parse --show-toplevel)
+              ln -sfn ${virtualenv} .venv
             '';
           };
         }
